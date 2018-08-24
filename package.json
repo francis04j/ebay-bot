@@ -1,0 +1,14 @@
+{
+  "name": "ebay-bot",
+  "version": "1.0.0",
+  "description": "a serverless bot that shops on ebay",
+  "main": "app.js",
+  "repository": "https://github.com/francis04j/ebay-bot",
+  "author": "Francis Ade",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon --inspect app.js"
+  }
+}
