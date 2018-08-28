@@ -1,13 +1,7 @@
 {
   "compilerOptions": {
     "sourceMap": true,
-    "target": "es6",
-    "lib": [
-      "esnext"
-    ],
-    "moduleResolution": "node"
-  },
-  "exclude": [
-    "node_modules"
-  ]
+    "lib": ["es5", "es2015.promise", "esnext.asynciterable", "es2017"],
+    "target": "es5"
+  }  
 }
