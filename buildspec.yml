@@ -13,4 +13,4 @@ phases:
       - echo $GIT_COMMIT_SHA > .src-version
       - SHOULD_PUBLISH=$( ([ "$GIT_BRANCH_NAME" = "master" ] || (echo $CODEBUILD_SOURCE_VERSION | grep -q '^pr')); echo $? )
       - chmod +x build.sh
-      - ./build.sh
+      - ./builds.sh
