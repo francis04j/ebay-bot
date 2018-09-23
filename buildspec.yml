@@ -12,5 +12,5 @@ phases:
       - GIT_COMMIT_SHA=`git rev-parse HEAD`
       - echo $GIT_COMMIT_SHA > .src-version
       - SHOULD_PUBLISH=$( ([ "$GIT_BRANCH_NAME" = "master" ] || (echo $CODEBUILD_SOURCE_VERSION | grep -q '^pr')); echo $? )
-      - chmod +x build.sh
+      - chmod +x builds.sh
       - ./builds.sh
